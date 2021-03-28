@@ -27,7 +27,7 @@ class EmailRule implements Rule
     public function passes($attribute, $value)
     {
         //return true;
-        return Str::endsWith($value, '@azet.sk');
+        return Str::endsWith($value, '@gmail.com');
     }
 
     /**
