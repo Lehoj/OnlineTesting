@@ -1,4 +1,4 @@
-A testing web app made for a University of Ss. Cyril and Methodius.
+A testing web app made for University of Ss. Cyril and Methodius.
 
 <hr>
 
