@@ -60,3 +60,5 @@ Route::patch('users/{user}/update',  ['as' => 'users.update', 'uses' => 'UsersCo
 
 //Route::get('/welcome', 'App\Http\Controllers\PagesController@welcome');
 
+// git test
+
