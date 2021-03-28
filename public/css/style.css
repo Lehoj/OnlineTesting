@@ -1,0 +1,235 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+
+.top-nav-collapse {
+  background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3f51b5 !important;
+  }
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.center {
+
+  margin: auto;
+  width: 100%;
+  padding: 10%;
+}
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+
+
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+
+.bg-light{
+  background-color: #fff !important;
+}
+
+/*.bg-top{
+	background-image: url('/public/images/101.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center
+}*/
+
+.oranzova{
+	color:#f57c00 !important;
+}
+
+.vyska{
+
+}
+
+.bg-light1{
+	background-color: #f1f1 !important;
+}
+
+.faqHeader {
+	font-size: 27px;
+	margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings', serif;
+	content: "e072"; /* "play" icon */
+	float: right;
+	color: #F58723;
+	font-size: 18px;
+	line-height: 22px;
+	/* rotate "play" icon from > (right arrow) to down arrow */
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+	/* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	color: #454444;
+}
+
+.card-block{
+	padding:10px !important;
+  display: none;
+}
+
+.card-header{
+  cursor: pointer;
+}
+
+.bg-footer{
+	background-color:#3f51b5;
+}
+
+@media (min-width: 280px) {
+
+
+    @media (min-width: 990px) {
+        li.nav-item {
+            text-align: center;
+            border-bottom: none;
+        }
+
+    }
+
+    .zoom {
+        transition: transform .2s; /* Animation */
+
+    }
+
+    .zoom:hover {
+        transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    .body1 {
+        background-color: rgba(126, 123, 215, 0.8);
+    }
+
+    .align {
+        text-align: center !important;
+    }
+
+    .mt-10 {
+        padding-top: 10%;
+    }
+
+    .mb-10 {
+        padding-bottom: 10%;
+    }
+
+    .back-to-top {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        display: none;
+    }
+
+    .custom-btn {
+        background-color: #f57c00;
+    }
+
+    @media (min-width: 280px) {
+        li.nav-item {
+            text-align: center;
+            border-bottom: solid 1px white;
+        }
+
+
+        @media (min-width: 990px) {
+            li.nav-item {
+                text-align: center;
+                border-bottom: none;
+            }
+
+        }
+
+        .middle {
+            position: relative;
+            top: 65%;
+        }
+
+        .top-textB {
+            background-color: rgba(105, 105, 105, 0.55);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+
+        .btn-group {
+            width: 100%;
+            height: auto;
+        }
+
+        .btn-red {
+            background-color: #FF0000;
+        }
+
+
+        .m {
+            width: 5%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ma {
+            margin: 2px
+        }
+
+        .mc {
+            width: 95%;
+        }
+
+        .mybg {
+            background-color: #5E6FC7;
+        }
+
+        .card-body {
+            background-color: #8895DC;
+        }
+
+        #Support {
+            display: none;
+        }
+
+        .wawe {
+            transform: rotate(180deg);
+        }
+    }
+}
