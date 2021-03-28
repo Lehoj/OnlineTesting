@@ -1,5 +1,12 @@
 A testing web app made for University of Ss. Cyril and Methodius.
 
+<b>How to run the app:</b>
+1. Type 'composer install' in the cmd 
+2. Create an empty database
+3. Set your own database settings in the .env file
+4. Type 'php artisan migrate'
+5. npm install
+
 <hr>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
