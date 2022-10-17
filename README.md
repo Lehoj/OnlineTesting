@@ -1,4 +1,4 @@
-A testing web app made for University of Ss. Cyril and Methodius.
+A testing web app.
 
 <b>How to run the app:</b>
 1. Type 'composer install' in the cmd 
