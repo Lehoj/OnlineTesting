@@ -18,7 +18,7 @@ A testing web app.
     <img src="https://i.imgur.com/OJWpwzu.png">
     <img src="https://i.imgur.com/jFhpaqF.png">
     <img src="https://i.imgur.com/flvXgR9.png">
-    <img src="https://i.imgur.com/5ZOe6wk.png">
+    <img src="https://i.imgur.com/egg0weJ.png">
 </p>
 <hr>
 
