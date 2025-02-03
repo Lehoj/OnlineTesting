@@ -46,6 +46,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'email_verified_at' => 'datetime',
     ];
 
+    // Vztah User-Test, jeden User moze mat viacero Testov.
     public function tests()
     {
         return $this->hasMany(Test::class);

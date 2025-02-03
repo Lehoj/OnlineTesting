@@ -27,11 +27,13 @@ class Test extends Model
         return url('/testing/' . $this->id.'-'. Str::slug($this->title));
     }
 
+    // Vztah Test-User, Test patri urcitemu Userovi.
     public function user()
     {
         return $this->belongsTo(User::class);
     }
 
+    // Vztah Test-Question, jeden Test moze mat viacero Otazok.
     public function questions()
     {
         return $this->hasMany(Question::class);
