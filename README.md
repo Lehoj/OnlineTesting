@@ -1,12 +1,25 @@
 A testing web app.
 
 <b>How to run the app:</b>
-1. Type 'composer install' in the cmd 
-2. Create an empty database
-3. Set your own database settings in the .env file
-4. Type 'php artisan migrate'
-5. npm install
+1. Type 'composer install' in the cmd;
+2. Create an empty database;
+3. Set your own database settings in the .env file;
+4. Type 'php artisan migrate';
+5. Type 'npm install';
+6. Run 'php artisan serve'.
+<hr>
 
+<b>Preview:</b>
+<p align="center">
+    <img src="https://i.imgur.com/IYbAAtC.png">
+    <img src="https://i.imgur.com/w16ycpi.png">
+    <img src="https://i.imgur.com/mTZZ2Ny.png">
+    <img src="https://i.imgur.com/wBHcruF.png">
+    <img src="https://i.imgur.com/OJWpwzu.png">
+    <img src="https://i.imgur.com/jFhpaqF.png">
+    <img src="https://i.imgur.com/flvXgR9.png">
+    <img src="https://i.imgur.com/5ZOe6wk.png">
+</p>
 <hr>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
